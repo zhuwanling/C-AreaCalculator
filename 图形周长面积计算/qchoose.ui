@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QChoose</class>
+ <widget class="QWidget" name="QChoose">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>113</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>111</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButtoncircle">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(240, 240, 240);</string>
+      </property>
+      <property name="text">
+       <string>圆形</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2rect">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(240, 240, 240);</string>
+      </property>
+      <property name="text">
+       <string>矩形</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3quere">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(240, 240, 240);</string>
+      </property>
+      <property name="text">
+       <string>正方形</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4traigle">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(240, 240, 240);</string>
+      </property>
+      <property name="text">
+       <string>三角形</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(240, 240, 240);</string>
+      </property>
+      <property name="text">
+       <string>由直线构成的图形</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_6ellipse">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(240, 240, 240);</string>
+      </property>
+      <property name="text">
+       <string>椭圆</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_7Sector">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(240, 240, 240);</string>
+      </property>
+      <property name="text">
+       <string>扇形</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>pushButton_7Sector</zorder>
+  <zorder>pushButton_6ellipse</zorder>
+  <zorder>pushButton_5line</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
